@@ -20,3 +20,44 @@ Python sử dụng kiểu dữ liệu bool để biểu thị giá trị logic.
 ```python
 sunny = True
 rainy = False
+### Các kiểu dữ liệu trong Python
+
+Python hỗ trợ nhiều kiểu dữ liệu tích hợp sẵn theo mặc định. Dưới đây là một số kiểu dữ liệu cơ bản:
+
+1. **Kiểu dữ liệu chuỗi (String):**
+   - Được bao quanh bởi dấu ngoặc kép hoặc dấu nháy đơn.
+   - Ví dụ: `name = "John"`
+
+2. **Kiểu dữ liệu số (Numeric Types):**
+   - `int`: Số nguyên, dương hoặc âm, không có số thập phân.
+   - `float`: Số thực, chứa số thập phân.
+   - `complex`: Số phức.
+   - Ví dụ: `age = 22`, `point = 8.9`
+
+3. **Kiểu dữ liệu danh sách (List):**
+   - Là một tập hợp các phần tử có thứ tự, có thể thay đổi.
+   - Ví dụ: `option = [1, 2, 3, 4, 5]`
+
+4. **Kiểu dữ liệu tuple:**
+   - Tương tự danh sách, nhưng không thể thay đổi sau khi khởi tạo.
+   - Ví dụ: `info = ('John', 22, True)`
+
+5. **Kiểu dữ liệu từ điển (Dictionary):**
+   - Lưu trữ các cặp khóa-giá trị.
+   - Ví dụ: `person = {"name": "John", "age": 22, "male": True}`
+
+6. **Kiểu dữ liệu boolean (Bool):**
+   - Chỉ có hai giá trị: `True` (đúng) và `False` (sai).
+   - Ví dụ: `sunny = True`, `rainy = False`
+
+### Mệnh đề điều kiện và vòng lặp
+
+Python hỗ trợ các mệnh đề điều kiện (`if`, `elif`, `else`) để kiểm tra điều kiện và thực hiện các hành động tương ứng. Vòng lặp `while` thực hiện một khối mã nhiều lần dựa trên điều kiện kiểm tra.
+
+Ví dụ về vòng lặp `while`:
+
+```python
+n = 0
+while n < 5:
+    n += 1
+    print(n)
