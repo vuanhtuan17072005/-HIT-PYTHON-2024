@@ -7,4 +7,4 @@ for i in range(2,n):
     my_Fibonacci.append(tong)
     vt0 = vt1
     vt1 = tong
-print("Dãy số độ dài",n,f"bạn cần tìm là : {my_Fibonacci}")
+print("Dãy số độ dài",n,"bạn cần tìm là : {my_Fibonacci}")
